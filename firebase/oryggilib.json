@@ -1,6 +1,86 @@
 {
-  "flows": {},
+  "flows": {
+    "security": {
+      "title": "Security Guide",
+      "device": {
+        "title": "Device Security",
+        "wireless": {
+          "title": "Wireless Networks",
+          "steps": [
+            "Change the router's administrative password.",
+            "Enable WPA/WPA2 Encryption."
+          ],
+          "extra": [
+            "Enable only one wireless network (2.4Ghz OR 5Ghz).",
+            "Disable SSID Broadcasting",
+            "Enable MAC Address Filters"
+          ]
+        },
+        "smartphone": {
+          "title": "Smartphones & Tablets",
+          "android": {
+            "title": "Android"
+          },
+          "ios": {
+            "title": "iOS"
+          }
+        },
+        "computer": {
+          "title": "Computers",
+          "windows": {},
+          "macos": {}
+        }
+      },
+      "account": {
+        "online_storage": {},
+        "credit_card": {},
+        "online_banking": {},
+        "social_media": {}
+      }
+    },
+    "socialengineering": {}
+  },
   "library": {
+    "other": {
+      "mail": {
+        "Misrepresented Exchange": {
+          "def": "A person or organization sends a letter offering you a limited time deal, credit line, or prize. The back of the letter usually discloses the actual cost, which is often significantly higher than the letter leads you to believe. Common letters include credit lines, auto loans, personal loans, and travel prizes.",
+          "uri": "http://searchsecurity.techtarget.com/definition/spam"
+        }
+      },
+      "person": {
+        "Diversions": {
+          "def": "An unfamiliar person who claims a package or delivery you are handling needs to be sent elsewhere. This person may appear to represent a client or an employee, or claim to know your supervisor or employer. Once they have gained your trust, they will try to divert the package or delivery.",
+          "uri": "https://sgros-students.blogspot.com/2015/11/pretexting-diversion-theft-phishing.html"
+        },
+        "Tailgating": {
+          "def": "An unfamiliar person follows an authorized person through a secure entrance into a building. The person often dresses similar to an employee or client and claims to have forgot their key or access card.",
+          "uri": "http://whatis.techtarget.com/definition/tailgating-piggybacking"
+        },
+        "Rogue Devices": {
+          "def": "A flash drive or networking device that a person plugs into an organization's computer to collect information. These devices may also provide a connection to the organization for a person outside of the building.",
+          "uri": "http://searchcio.techtarget.com/definition/Rogue-IT"
+        },
+        "Surfing": {
+          "def": "A person who attempts to collect information by observing you. An example may be a person staring over your shoulder at your computer monitor while you work.",
+          "uri": "http://searchsecurity.techtarget.com/definition/shoulder-surfing"
+        }
+      },
+      "phone": {
+        "Pretexting": {
+          "def": "A person or organization who contacts you and asks to confirm your identity. Often, the person will state they have an account under your name for an exclusive offer, payout, or prize. This person or organization will try to gain your trust while attempting to collect more personal information.",
+          "uri": "http://searchcio.techtarget.com/definition/pretexting"
+        },
+        "SMS Phishing": {
+          "def": "A person sends you a message telling you to click on a link or download a file to stop a purchase or subscription from being charged to your cellular phone bill. The file or link often requests your personal information or installs an application that logs the information you type into your phone.",
+          "uri": "http://searchmobilecomputing.techtarget.com/definition/SMiShing"
+        },
+        "Adware": {
+          "def": "An app that collects information from your smartphone and sends it to a person or organization without your knowledge. These apps often send you notification advertisements and pop up ads while you are using your smartphone.",
+          "uri": "http://searchsecurity.techtarget.com/definition/malware"
+        }
+      }
+    },
     "online": {
       "email": {
         "Phishing": {
@@ -10,46 +90,6 @@
         "Spoofing": {
           "def": "The details of an email are altered to look like they were sent by the actual person or organization from a legitimate email address. These emails are often detected and filtered automatically.",
           "uri": "http://searchsecurity.techtarget.com/definition/email-spoofing"
-        }
-      },
-      "other": {
-        "phone": {
-          "Pretexting": {
-            "def": "A person or organization who contacts you and asks to confirm your identity. Often, the person will state they have an account under your name for an exclusive offer, payout, or prize. This person or organization will try to gain your trust while attempting to collect more personal information.",
-            "uri": "http://searchcio.techtarget.com/definition/pretexting"
-          },
-          "SMS Phishing": {
-            "def": "A person sends you a message telling you to click on a link or download a file to stop a purchase or subscription from being charged to your cellular phone bill. The file or link often requests your personal information or installs an application that logs the information you type into your phone.",
-            "uri": "http://searchmobilecomputing.techtarget.com/definition/SMiShing"
-          },
-          "Adware": {
-            "def": "An app that collects information from your smartphone and sends it to a person or organization without your knowledge. These apps often send you notification advertisements and pop up ads while you are using your smartphone.",
-            "uri": "http://searchsecurity.techtarget.com/definition/malware"
-          }
-        },
-        "mail": {
-          "Misrepresented Exchange": {
-            "def": "A person or organization sends a letter offering you a limited time deal, credit line, or prize. The back of the letter usually discloses the actual cost, which is often significantly higher than the letter leads you to believe. Common letters include credit lines, auto loans, personal loans, and travel prizes.",
-            "uri": "http://searchsecurity.techtarget.com/definition/spam"
-          }
-        },
-        "person": {
-          "Diversions": {
-            "def": "An unfamiliar person who claims a package or delivery you are handling needs to be sent elsewhere. This person may appear to represent a client or an employee, or claim to know your supervisor or employer. Once they have gained your trust, they will try to divert the package or delivery.",
-            "uri": "https://sgros-students.blogspot.com/2015/11/pretexting-diversion-theft-phishing.html"
-          },
-          "Tailgating": {
-            "def": "An unfamiliar person follows an authorized person through a secure entrance into a building. The person often dresses similar to an employee or client and claims to have forgot their key or access card.",
-            "uri": "http://whatis.techtarget.com/definition/tailgating-piggybacking"
-          },
-          "Rogue Devices": {
-            "def": "A flash drive or networking device that a person plugs into an organization's computer to collect information. These devices may also provide a connection to the organization for a person outside of the building.",
-            "uri": "http://searchcio.techtarget.com/definition/Rogue-IT"
-          },
-          "Surfing": {
-            "def": "A person who attempts to collect information by observing you. An example may be a person staring over your shoulder at your computer monitor while you work.",
-            "uri": "http://searchsecurity.techtarget.com/definition/shoulder-surfing"
-          }
         }
       },
       "scams": {
