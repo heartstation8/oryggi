@@ -1,0 +1,111 @@
+{
+  "device": {
+    "wireless": {
+      "steps": [
+        "Change the router's administrative password.",
+        "Enable WPA/WPA2 Encryption."
+      ],
+      "extra": [
+        "Enable only one wireless network (2.4Ghz OR 5Ghz).",
+        "Disable SSID Broadcasting",
+        "Enable MAC Address Filters"
+      ]
+    },
+    "smartphone": {
+      "android": {
+        "steps": [
+          "Enable PIN or Password on Lock Screen.",
+          "Enable Two-Factor Authentication for Google.",
+          "Enable Device Encryption.",
+          "Install Virus Scanner."
+        ],
+        "extra": [
+          "Enable Remote Wipe.",
+          "Enable Automatic App Updates."
+        ]
+      },
+      "ios": {
+        "steps": [
+          "Disable Simple Passcode.",
+          "Enable Two-Factor Authentication for iCloud.",
+          "Enable Device Encryption."
+        ],
+        "extra": [
+          "Disable Siri on Lock Screen.",
+          "Disable Notifications on Lock Screen.",
+          "Disable Automatic iCloud Sync."
+        ]
+      }
+    },
+    "computer": {
+      "windows": {
+        "steps": [
+          "Disable Microsoft Account Sync.",
+          "Enable Login Password.",
+          "Disable Microsoft Privacy Options.",
+          "Disable Location Services."
+        ],
+        "extra": [
+          "Disable Access Account Information.",
+          "Disable Windows Update Service."
+        ]
+      },
+      "macos": {
+        "steps": [
+          "Create and Use A Standard Account.",
+          "Disable Automatic Login.",
+          "Enable Full Disk Encryption."
+        ],
+        "extra": [
+          "Disable Spotlight Search Suggestions."
+        ]
+      }
+    }
+  },
+  "account": {
+    "online_storage": {
+      "steps": [
+        "Change Your Password Every 6 Months.",
+        "Enable Two-Factor Authentication.",
+        "Remove Authorized Apps."
+      ],
+      "extra": [
+        "Disable Automatic Sync."
+      ]
+    },
+    "credit_card": {
+      "steps": [
+        "Change Password Every 3 Months.",
+        "Enable Two-Factor Authentication.",
+        "Install and Use Official Smartphone Apps."
+      ],
+      "extra": [
+        "Disable (or Limit) Cash Advances.",
+        "Install and Use a Digital Wallet."
+      ]
+    },
+    "online_banking": {
+      "steps": [
+        "Change Password Every 3 Months.",
+        "Enable Two-Factor Authentication.",
+        "Install and Use Official Smartphone Apps."
+      ],
+      "extra": [
+        "Create and Use a Long PIN.",
+        "Change PIN Every 3 Months.",
+        "Set Up and Use Bill Pay Services."
+      ]
+    },
+    "social_media": {
+      "steps": [
+        "Disable (or Limit) Public Access.",
+        "Change Password Every 2 Months.",
+        "Enable Two-Factor Authentication.",
+        "Install and Use Official Smartphone Apps."
+      ],
+      "extra": [
+        "Do Not Login On A Public Device."
+      ]
+    }
+  }
+}

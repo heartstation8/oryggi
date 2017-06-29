@@ -1,0 +1,401 @@
+{
+  "q1": {
+    "question": "Did you receive an email, phone call, or letter?",
+    "yes": "q2",
+    "no": "q28"
+  },
+  "q2": {
+    "question": "Do you recognize the person or organization that sent it?",
+    "yes": "q3",
+    "no": "q11"
+  },
+  "q3": {
+    "question": "How did the person or organization contact you?",
+    "options": {
+      "Email": "q4",
+      "Phone Call": "q6",
+      "Letter": "q8"
+    }
+  },
+  "q4": {
+    "question": "Is this is a common or expected way for the person or organization to contact you?",
+    "yes": "a1",
+    "no": "q5"
+  },
+  "q5": {
+    "question": "Does the email have file(s) attached?",
+    "yes": "a2",
+    "no": "a1"
+  },
+  "q6": {
+    "question": "Is this is a common or expected way for the person or organization to contact you?",
+    "yes": "q7",
+    "no": "a3"
+  },
+  "q7": {
+    "question": "Did the person or organization discuss or request information that they normally do not request by phone?",
+    "yes": "a4",
+    "no": "a3"
+  },
+  "q8": {
+    "question": "Is this is a common or expected way for the person or organization to contact you?",
+    "yes": "q9",
+    "no": "a4"
+  },
+  "q9": {
+    "question": "Does the letter reflect the format, letter head, and font of the person or organization based on past letters?",
+    "yes": "q10",
+    "no": "a4"
+  },
+  "q10": {
+    "question": "Does the content of the letter discuss or request information that the person or organization not normally request by letter?",
+    "yes": "a4",
+    "no": "a5"
+  },
+  "q11": {
+    "question": "Have you searched online for information about the person or organization?",
+    "yes": "q12"
+  },
+  "q12": {
+    "question": "Does this person or organization seem trustworthy based on what you discovered?",
+    "yes": "q3",
+    "no": "q13"
+  },
+  "q13": {
+    "question": "How did this person or organization contact you?",
+    "options": {
+      "Email": "q14",
+      "Phone Call": "q19",
+      "Letter": "q24"
+    }
+  },
+  "q14": {
+    "question": "Does the email have file(s) attached?",
+    "yes": "a6",
+    "no": "q15"
+  },
+  "q15": {
+    "question": "Does the email offer you a product, subscription, cash prize, or employment?",
+    "yes": "a7",
+    "no": "q16"
+  },
+  "q16": {
+    "question": "Does the email ask you to send back personal or professional information?",
+    "yes": "a8",
+    "no": "q17"
+  },
+  "q17": {
+    "question": "Does the email ask you to click on a link?",
+    "yes": "a8",
+    "no": "q18"
+  },
+  "q18": {
+    "question": "Does the email ask you to donate, send, or wire money, or make a payment?",
+    "yes": "a9",
+    "no": "a10"
+  },
+  "q19": {
+    "question": "Has this person used or provided the name of your immediate or distant family relative?",
+    "yes": "a11",
+    "no": "q20"
+  },
+  "q20": {
+    "question": "Did they offer technical support for your computer or smartphone?",
+    "yes": "a12",
+    "no": "q21"
+  },
+  "q21": {
+    "question": "Did they offer you a product, subscription, limited-time prize, cash payout, or employment?",
+    "yes": "a13",
+    "no": "q22"
+  },
+  "q22": {
+    "question": "Did they ask for a donation or contribution?",
+    "yes": "a13",
+    "no": "q23"
+  },
+  "q23": {
+    "question": "Did they reference an outstanding debt or collection account?",
+    "yes": "a14",
+    "no": "a13"
+  },
+  "q24": {
+    "question": "Does the return address on the envelope match information in Google Maps?",
+    "yes": "q25",
+    "no": "a13"
+  },
+  "q25": {
+    "question": "Does the letter offer you a product, subscription, or limited time prize?",
+    "yes": "a15",
+    "no": "q26"
+  },
+  "q26": {
+    "question": "Does the letter request payment for a product, subscription, or outstanding debt?",
+    "yes": "a16",
+    "no": "q27"
+  },
+  "q27": {
+    "question": "Does the letter contain any personal information for you or a relative?",
+    "yes": "a16",
+    "no": "a15"
+  },
+  "q28": {
+    "question": "Did you notice a suspicious person?",
+    "yes": "q29",
+    "no": "q--"
+  },
+  "q29": {
+    "question": "Was this person on an organization's property?",
+    "yes": "q30",
+    "no": "a19"
+  },
+  "q30": {
+    "question": "Did this person appear to be carrying company-issued identification?",
+    "yes": "a17",
+    "no": "q31"
+  },
+  "q31": {
+    "question": "Was this person attempting to enter a building through a secured entrance?",
+    "yes": "q30",
+    "no": "a17"
+  },
+  "q32": {
+    "question": "Did this person appear to attempt to follow behind or ask an organization employee for entry?",
+    "yes": "a18",
+    "no": "a17"
+  },
+  "a1": {
+    "actions": [
+      "If you believe this message is spam, delete the email."
+    ],
+    "libraries": [
+      "Spam"
+    ]
+  },
+  "a2": {
+    "actions": [
+      "Contact the person or organization and notify them of the suspicious email.",
+      "Delete the email.",
+      "Delete any file(s) you downloaded.",
+      "Run a deep virus scan on your device."
+    ],
+    "libraries": [
+      "Software Assistants"
+    ]
+  },
+  "a3": {
+    "actions": [
+      "If you believe the phone call is a solicitation, block the number on your device.",
+      "Do not provide any personal or payment information to the caller."
+    ],
+    "libraries": [
+      "Phishing",
+      "Spam"
+    ]
+  },
+  "a4": {
+    "actions": [
+      "Contact the person or organization through a known, public number.",
+      "If this was an organization, request a supervisor or manager to discuss the interaction and verify that company procedure was followed."
+    ],
+    "libraries": [
+      "Pretexting",
+      "Phishing",
+      "Spam"
+    ]
+  },
+  "a5": {
+    "actions": [
+      "If you believe this letter is a solicitation, shred or discard it."
+    ],
+    "libraries": [
+      "Spam"
+    ]
+  },
+  "a6": {
+    "actions": [
+      "Delete the email.",
+      "Delete any file(s) you downloaded.",
+      "Do not open email from this sender in the future.",
+      "Mark this email as Spam to help filter future email out of your inbox.",
+      "Run a deep virus scan on your device."
+    ],
+    "libraries": [
+      "Software Assistants"
+    ]
+  },
+  "a7": {
+    "actions": [
+      "Delete the email.",
+      "Do not contact the sender to pay for a product or subscription.",
+      "Do not contact the sender to ask for or provide information to collect any prize or employment offers made to you.",
+      "Do not open email from this sender in the future.",
+      "Mark this email as Spam to help filter future email out of your inbox."
+    ],
+    "libraries": [
+      "Baiting",
+      "Phishing",
+      "Spam",
+      "Spoofing"
+    ]
+  },
+  "a8": {
+    "actions": [
+      "If asked to click on a link or reply from your work device, contact your supervisor or IT department immediately. This email may be part of an organized effort targeting employees at your organization.",
+      "Keep the email in your inbox. Your supervisor or IT department may need to see or retrieve a copy of the email from your device.",
+      "Do not open email from this sender in the future.",
+      "Mark this email as Spam to help filter future email out of your inbox."
+    ],
+    "libraries": [
+      "Baiting",
+      "Phishing",
+      "Pretexting",
+      "Spoofing"
+    ]
+  },
+  "a9": {
+    "actions": [
+      "Do not send money to the person listed in the email.",
+      "Do not make a payment or send money at any link in the email.",
+      "Do not open email from this sender in the future.",
+      "Mark this email as Spam to help filter future email out of your inbox."
+    ],
+    "libraries": [
+      "Baiting",
+      "Phishing",
+      "Pretexting",
+      "Romance Scam"
+    ]
+  },
+  "a10": {
+    "actions": [
+      "Delete the email.",
+      "Do not open email from this sender in the future.",
+      "Mark this email as Spam to help filter future email out of your inbox."
+    ],
+    "libraries": [
+      "Baiting",
+      "Phishing",
+      "Pretexting",
+      "Romance Scam"
+    ]
+  },
+  "a11": {
+    "actions": [
+      "If possible, write down the number the caller used.",
+      "Contact the relative whose name was used on the call.",
+      "Provide as much information as possible about the conversation and requests made by the caller.",
+      "Ask your relative to review the privacy settings on their social media accounts (i.e., Facebook, Twitter, Instagram).",
+      "Ask your relative to review their bank and credit card accounts for unusual charges.",
+      "If there is reason to suspect a social media or personal account has been cracked, change passwords and follow the organization's Report Fraud procedures.",
+      "Do not provide any personal or payment information to the caller."
+    ],
+    "libraries": [
+      "Pretexting",
+      "SMS Phishing"
+    ]
+  },
+  "a12": {
+    "actions": [
+      "If possible, block the number on your device.",
+      "Do not provide any personal or payment information to the caller.",
+      "Do not follow any instructions provided by the caller.",
+      "If the caller offers remote support, do not provide any information about your device to the caller.",
+      "If the caller offers to connect to your computer, disconnect the call immediately."
+    ],
+    "libraries": [
+      "Phishing",
+      "Software Assistants",
+      "Ransomeware"
+    ]
+  },
+  "a13": {
+    "actions": [
+      "If possible, block the number on your device.",
+      "Do not provide any personal or payment information to the caller.",
+      "Do not follow any instructions provided by the caller."
+    ],
+    "libraries": [
+      "Phishing"
+    ]
+  },
+  "a14": {
+    "actions": [
+      "If possible, contact the person or organization and request verification of the outstanding debt by mail.",
+      "If the call is related to a legitimate collection account, and the debt collector originates the call from within the United States, the US Fair Debt Collection Practices Act outlines rights and restrictions until the debt is paid.",
+      "Retain the mailed verification when received and until the debt is paid.",
+      "Do not provide personal or payment information to the caller until the debt is verified."
+    ],
+    "libraries": [
+      "Phishing",
+      "Collections"
+    ]
+  },
+  "a15": {
+    "actions": [
+      "Shred the letter.",
+      "Shred any future letters which appear to be from the same or a related sender."
+    ],
+    "libraries": [
+      "Misrepresented Exchanges",
+      "Phishing",
+      "Scams",
+      "Spoofing"
+    ]
+  },
+  "a16": {
+    "actions": [
+      "If a phone number is provided, attempt to call it for information.",
+      "Requests for payment to debt collection accounts often arrive in plain white envelopes with a brief letter enclosed.",
+      "If the letter references a legitimate collection account, and the debt collector is located within the United States, the US Fair Debt Collection Practices Act outlines rights and restrictions until the debt is paid. Protect yourself.",
+      "If the letter does not represent a legitimate debt, shred the letter and any future letters."
+    ],
+    "libraries": [
+      "Collections",
+      "Phishing",
+      "Scams",
+      "Spoofing"
+    ]
+  },
+  "a17": {
+    "actions": [
+      "If you are an employee, contact an administrator or security officer to disclose your concerns."
+    ],
+    "libraries": [
+      "Tailgating"
+    ]
+  },
+  "a18": {
+    "actions": [
+      "Contact the organization and disclose any details about the person and their activities on the property.",
+      "If an employee or security officer is not available, contact law enforcement. Try to collect and provide accurate detail on the person's appearance, location, and specific behavior before calling.",
+      "If you believe this person is an immediate threat to your or another person's safety, dial 911."
+    ],
+    "libraries": [
+      "Tailgating"
+    ]
+  },
+  "a19": {
+    "actions": [
+      "Collect any details about the person and their activities on the property.",
+      "If this occurred on an apartment property, contact the office and disclose any details on the person.",
+      "If this occurred on a private residence, contact the police department and discuss the details with a local police officer.",
+      "If you believe this person is an immediate threat to your or another person's safety, dial 911."
+    ],
+    "libraries": [
+      "Diversions",
+      "Tailgating"
+    ]
+  },
+  "a20": {
+    "actions": [
+      "Call 911 if the package or envelope emits a ticking or pattern of noise.",
+      "Otherwise, contact a security officer or senior administrator in the building.",
+      "Assist with diverting people away from the area where the package or bag is located. If possible, dress the area with construction cones or other hazard markers that can mask the situation and prevent alarm from other people.",
+      "Maintain a safe distance."
+    ],
+    "libraries": [
+      "Suspicious Packages"
+    ]
+  }
+}
