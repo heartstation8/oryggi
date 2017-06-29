@@ -1,8 +1,8 @@
 {
   "name": "oryggi",
   "version": "0.0.0",
-  "description": "Hello Expo!",
-  "author": null,
+  "description": "A React Native application for engaging consumer security education.",
+  "author": "heartstation8",
   "private": true,
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {

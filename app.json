@@ -1,17 +1,18 @@
 {
   "expo": {
-    "name": "Oryggi",
-    "description": "An empty new project",
+    "name": "oryggi",
+    "description": "A React Native application for engaging consumer security education.",
     "slug": "oryggi",
     "privacy": "public",
     "sdkVersion": "18.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
-    "icon": "./assets/icons/app.png",
+    "icon": "./assets/icons/oryggi.png",
     "loading": {
-      "icon": "./assets/icons/loading.png",
-      "hideExponentText": false
+      "icon": "./assets/icons/oryggi.png",
+      "backgroundImage": "./assets/images/loading_bg.png",
+      "hideExponentText": true
     },
     "packagerOpts": {
       "assetExts": ["ttf", "mp4"]
