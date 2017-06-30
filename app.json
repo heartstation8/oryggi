@@ -4,11 +4,15 @@
     "description": "A React Native application for engaging consumer security education.",
     "slug": "oryggi",
     "privacy": "public",
-    "sdkVersion": "18.0.0",
+    "sdkVersion": "15.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
     "icon": "./assets/icons/oryggi.png",
+    "androidStatusBar": {
+      "barStyle":"light-content",
+      "backgroundColor":"#ffffff"
+    },
     "loading": {
       "icon": "./assets/icons/oryggi.png",
       "backgroundImage": "./assets/images/loading_bg.png",
